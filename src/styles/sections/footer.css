@@ -30,3 +30,28 @@
 .footer-copyright {
   color: #fff;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .main-footer {
+    height: 90px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer-link {
+    padding: 2px;
+  }
+  .footer-copyright {
+    font-size: 15px;
+  }
+}
