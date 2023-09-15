@@ -7,7 +7,7 @@
 @import url(common/index.css);
 
 /* Components style */
-@import url(common/index.css);
+@import url(components/index.css);
 
 /* Section style */
 @import url(sections/index.css);
