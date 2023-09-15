@@ -68,3 +68,21 @@
   letter-spacing: 5px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 568px) {
+}
