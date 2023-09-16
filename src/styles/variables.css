@@ -1,0 +1,32 @@
+:root {
+  --work-sans-ff: "Work Sans", sans-serif;
+  --crim-son-ff: "Crimson Text", serif;
+
+  --green-100-clr: #74c69d;
+  --white-75-clr: rgba(255, 255, 255, 0.75);
+  --dark-75-clr: rgba(33, 37, 41, 0.75);
+  --dark-50-clr: rgba(33, 37, 41, 0.5);
+
+  --content-container-width: 1180px;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --content-container-width: 940px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --content-container-width: 740px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --content-container-width: 90%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+}
