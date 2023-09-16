@@ -1,0 +1,14 @@
+.text-input {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #eee;
+  outline: none;
+  transition: all 100ms ease-in-out;
+}
+
+.text-input:focus {
+  background-color: rgba(230, 230, 230, 0.3);
+  border-color: rgba(0, 0, 0, 0.6);
+}
