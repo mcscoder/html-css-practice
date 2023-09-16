@@ -1,0 +1,74 @@
+.service {
+  .container-1 {
+    margin: 50px 0 100px 0;
+
+    .content-container {
+      flex-direction: column;
+      gap: 70px;
+
+      .content-1 {
+        .label {
+          color: var(--green-100-clr);
+        }
+      }
+
+      .content-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 60px;
+
+        .plan-container {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          padding: 45px 30px;
+          border-radius: 5px;
+          background: #fff;
+          box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+
+          .description-container {
+            text-align: center;
+
+            .plan-fee {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 0 10px;
+
+              .fee {
+                font-family: var(--work-sans-ff);
+              }
+
+              .duration,
+              .description {
+                color: var(--dark-50-clr);
+              }
+            }
+          }
+
+          .features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .feature-content {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              i {
+                font-size: 1.25rem;
+                color: var(--green-100-clr);
+              }
+            }
+          }
+
+          .btn-container {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
