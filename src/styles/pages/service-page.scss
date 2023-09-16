@@ -1,3 +1,5 @@
+@import "break-point";
+
 .service {
   .container-1 {
     margin: 50px 0 100px 0;
@@ -17,6 +19,14 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         gap: 60px;
+
+        @include smaller-laptop() {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include tablet() {
+          grid-template-columns: repeat(1, 1fr);
+        }
 
         .plan-container {
           display: flex;
